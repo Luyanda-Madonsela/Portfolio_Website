@@ -9,10 +9,10 @@ import tech_stack from '/public/images/tech_stack_badges.png'
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-screen min-h-screen overflow-auto whitespace-nowrap scrollbar-hide">
+    <main className="flex flex-col w-full min-h-screen whitespace-nowrap scrollbar-hide">
 
 {/* ------------------------------------------------Hero Section--------------------------------------------------- */}
-      <div className="flex flex-col items-center content-center justify-center w-full min-h-0 mb-16 md:flex-row md:mb-0 lg:ml-1 2xl:ml-1" >
+      <div className="flex flex-col items-center content-center justify-center w-full min-h-0 mb-16 md:flex-row md:mb-0 lg:ml-1 " >
 
         <div className="relative flex items-center content-center justify-start h-64 md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-2 2xl:mr-2 w-72 md:w-0 md:h-0 ">
             <Image
@@ -23,7 +23,7 @@ export default function Home() {
             />
         </div>
 
-        <div className="flex flex-col w-full 2xl:-ml-12 min-h-96 md:w-1/2 md:pt-2 lg:pt-10 md:ml-14 lg:ml-0 lg:mr-24 xl:-ml-2 xl:mr-16 2xl:mr-12">
+        <div className="flex flex-col w-full 2xl:-ml-12 min-h-96 md:w-1/2 md:pt-2 lg:pt-10 md:ml-14 lg:ml-0 lg:mr-24 xl:-ml-2 xl:mr-16 custom:-mr-0 2xl:-mr-10">
           <div className="2xl:-ml-5">
            <div className="flex items-center content-center justify-center mt-5 md:justify-start md:-ml-0">
              <Header text="I'm Luyanda Madonsela," />
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         </div>
         {/* -----------------Hero Image------------- */}
-        <div className="relative flex items-center content-center justify-start min-h-160 md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 2xl:mr-28 md:w-80 md:h-80 lg:w-72 lg:h-72 xl:w-128 xl:h-128 2xl:w-140 2xl:h-160">
+        <div className="relative flex items-center content-center justify-start min-h-160 md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-16 custom:mr-10 2xl:mr-28 md:w-80 md:h-80 lg:w-72 lg:h-72 xl:w-128 xl:h-128 2xl:w-160 2xl:h-160">
           <Image
             src={welcome_selfie}
             layout="fill" 
