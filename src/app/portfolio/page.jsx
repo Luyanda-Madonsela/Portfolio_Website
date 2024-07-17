@@ -36,7 +36,7 @@ export default function Portfolio() {
             <ProjectPlaque               
               mainImage={<div className='relative h-36 w-36 md:h-28 md:w-28 lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48'><Image src="/images/blog.png" alt="This Website" layout='fill' objectFit='contain' /></div>}
               stackImage={<div className='relative lg:h-12 lg:w-36 xl:h-18 xl:w-44 2xl:h-18 2xl:w-48'><Image src="/images/portfolio_website_stack.png" alt="Stack Image" layout='fill' objectFit='cover' /></div>}
-              headingText1="Programming Jokes" 
+              headingText1="Tech Jokes" 
               headingText2="REST API" 
               button1={<Button text="Demo" href="/" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
               button2={<Button text="Source code" href="" target='_blank'  height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
