@@ -25,9 +25,9 @@ export default function Home() {
 
         <div className="flex flex-col w-full 2xl:-ml-12 min-h-96 md:w-1/2 md:pt-2 lg:pt-10 md:ml-14 lg:ml-0 lg:mr-24 xl:-ml-2 xl:mr-16 custom:-mr-0 2xl:-mr-10">
           <div className="2xl:-ml-5">
-           <div className="flex items-center content-center justify-center mt-5 md:justify-start md:-ml-0">
-             <Header text="I'm Luyanda Madonsela," />
-           </div>
+            <div className="flex items-center content-center justify-center mt-5 md:justify-start md:-ml-0">
+              <Header text="I'm Luyanda Madonsela," />
+            </div>
             
             <div className='flex items-center content-center justify-center pt-2 text-2xl font-semibold text-butt-color lg:text-3xl xl:text-5xl md:justify-start md:pl-0'>Full Stack Web &</div>
             <div className='flex items-center content-center justify-center pt-1 text-2xl font-semibold text-butt-color lg:text-3xl xl:text-5xl md:justify-start md:pl-0'>Software Developer</div>
