@@ -67,10 +67,10 @@ export default function Contact() {
         </div>
         <div className="flex w-2/3 mt-10 mb-0 h-160 md:mt-20">
           <form className="w-full max-w-sm mx-auto" ref={formRef} onSubmit={sendEmail}>
-            <label className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">name<span className='text-red-500 text-m'>*</span></label>
+            <label className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple" name="user_name">name<span className='text-red-500 text-m'>*</span></label>
             <input className="bg-gray-50 border-2 border-butt-color text-sm rounded-sm focus:ring-butt-color focus:border-butt-color block w-full p-2.5 dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" type="text" name="user_name" />
             <br></br>
-            <label className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">email<span className='text-red-500 text-m'>*</span></label>
+            <label className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple" name="user_email">email<span className='text-red-500 text-m'>*</span></label>
             <input className="bg-gray-50 border-2 border-butt-color text-sm rounded-sm focus:ring-butt-color focus:border-butt-color block w-full p-2.5 dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" type="email" name="user_email" />
             <br></br>
             <label className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">message<span className='text-red-500 text-m'>*</span></label>
