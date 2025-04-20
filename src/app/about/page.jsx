@@ -44,7 +44,7 @@ export default function About() {
                   <p className="flex items-center content-center justify-center mb-2 text-xl font-bold md:justify-start md:mb-0 md:text-2xl text-lime-600">Employment History</p>
                 <br></br>
                 <ul>
-                  <span className="hover:text-lime-600"><li className='pb-1 overflow-auto whitespace-normal'><span className="font-bold">Master Maths (Mar 2020 - Current):</span> Full-Time Mathematics & Science Tutor</li></span>      
+                  <span className="hover:text-lime-600"><li className='pb-1 overflow-auto whitespace-normal'><span className="font-bold">University of the Witwatersrand (2015): </span>1st Year Engineering Programming Tutor</li></span>      
                 </ul>
               </div>
           
