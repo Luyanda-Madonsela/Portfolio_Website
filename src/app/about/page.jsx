@@ -71,7 +71,7 @@ export default function About() {
    
 
 
-      <div className="flex flex-col items-center content-center justify-center w-full mb-20 md:gap-20 min-h-288">
+      <div className="flex flex-col items-center content-center justify-center w-full mb-20 gap-10 md:gap-20 min-h-288">
       
         <div className='relative flex flex-row items-center content-center justify-center md:mt-5 w-80 h-72 md:w-128 md:h-96 lg:w-192 lg:h-160 xl:w-256 xl:h-200'>
         <Image
