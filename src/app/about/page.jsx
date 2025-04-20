@@ -2,8 +2,8 @@
 import Header from '../components/Header'
 import Image from 'next/image';
 import about_selfie from '/public/images/aboutImage.png'
-import certificate1 from '/public/images/js_certificate.png'
-import certificate2 from '/public/images/completion.jpg'
+import certificate1 from '/public/images/completion.jpg'
+import certificate2 from '/public/images/letter.jpg'
 import Link from 'next/link'
 
 export default function About() {
