@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Image from 'next/image';
 import about_selfie from '/public/images/aboutImage.png'
 import certificate1 from '/public/images/completion.jpg'
-import certificate2 from '/public/images/letter.jpg'
+import certificate2 from '/public/images/mictseta.jpg'
 import Link from 'next/link'
 
 export default function About() {
