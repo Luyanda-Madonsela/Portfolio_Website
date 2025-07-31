@@ -21,7 +21,7 @@ export default function Portfolio() {
               headingText1="This Portfolio" 
               headingText2="Website" 
               button1={<Button text="Demo" href="/" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
-              button2={<Button text="Source code" href="https://github.com/Luyanda-Madonsela/porfolio_website" target='_blank'  height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+              button2={<Button text="Source code" href="https://github.com/Luyanda-Madonsela/Portfolio_Website" target='_blank'  height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
             <ProjectPlaque               
